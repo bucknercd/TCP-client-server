@@ -1,4 +1,4 @@
-This is a simple TCP client-server setup which runs on port 10000. The tcp server will receive a message 
+This is a simple TCP client-server setup which runs on port 9000. The tcp server will receive a message 
 from the tcp client. It will then append a small message to the front of the message
 it just received and will send the newly created message back to the client. The client
 will print the received message to stdout. The TCP server will fork a process to handle
